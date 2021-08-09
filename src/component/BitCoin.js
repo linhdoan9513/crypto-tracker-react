@@ -31,7 +31,7 @@ class BitCoin extends React.Component {
         if (this.props.coin > prevPrice) { 
             return <h3 className={`${this.state.color ? "green" : ""}`}>{this.props.coin.toLocaleString()}</h3>
         } 
-        return <h3 className={`${this.state.color ? "green" : ""}`}>{this.props.coin.toLocaleString()}</h3>
+        return <h3 className={`${this.state.color ? "red" : ""}`}>{this.props.coin.toLocaleString()}</h3>
     }
 }
 
