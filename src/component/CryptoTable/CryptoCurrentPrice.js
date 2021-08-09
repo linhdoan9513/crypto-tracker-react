@@ -29,8 +29,9 @@ class CryptoCurrentPrice extends React.Component {
         const { prevPrice } = this.state
         if (this.props.coin.current_price > prevPrice) { 
             return <td className={`align-left ${this.state.color ? "green" : ""}`}>$ {this.props.coin.current_price.toLocaleString()}</td>
-        } 
-        return <td className={`align-left ${this.state.color ? "green" : ""}`}> $ {this.props.coin.current_price.toLocaleString()}</td>
+        } else {
+           return <td className={`align-left ${this.state.color ? "red" : ""}`}> $ {this.props.coin.current_price.toLocaleString()}</td>
+        }
     }
 
 }
