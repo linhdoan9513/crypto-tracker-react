@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 Live Demo: https://linhdoan.netlify.app/
+
+
+Description: Real time cryptotracker with line graph
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
