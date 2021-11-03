@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-Live Demo: https://linhdoan.netlify.app/
+Live Demo: https://crypto-tracker-fun.netlify.app/
 
 
 Description: Real time cryptotracker with line graph
